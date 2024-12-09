@@ -12,7 +12,7 @@ export default function PopularCar() {
           <CarCard
             name={"Koenigsegg"}
             type={"Sport"}
-            image={"/pCar1.png"}
+            image={"/pCar1.png" }
             fuelCapacity={"90L"}
             transmission={"Manual"}
             capacity={"2 People"}

@@ -30,7 +30,7 @@ export default function Category() {
       {/* Top Section */}
       <div className="p-4 md:p-6 flex flex-col md:flex-row gap-4 max-w-7xl mx-auto">
         {/* Pick Up */}
-        <Card className="flex-1">
+        <Card className="flex-1 ">
           <CardContent className="p-4">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-2 h-2 rounded-full bg-blue-500"></div>
@@ -44,9 +44,9 @@ export default function Category() {
                     <SelectValue placeholder="Select city" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="ny">New York</SelectItem>
-                    <SelectItem value="ld">London</SelectItem>
-                    <SelectItem value="db">Dubai</SelectItem>
+                    <SelectItem value="ny">Karachi</SelectItem>
+                    <SelectItem value="ld">Hyderabad</SelectItem>
+                    <SelectItem value="db">Sukkur</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -105,9 +105,9 @@ export default function Category() {
                     <SelectValue placeholder="Select city" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="ny">New York</SelectItem>
-                    <SelectItem value="ld">London</SelectItem>
-                    <SelectItem value="db">Dubai</SelectItem>
+                    <SelectItem value="ny">Sukkur</SelectItem>
+                    <SelectItem value="ld">Hyderabad</SelectItem>
+                    <SelectItem value="db">Karachi</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -202,7 +202,7 @@ export default function Category() {
 
           {/* Car Grid */}
           <div className="flex-1">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
               {[
                 {
                   name: "Koenigsegg",
@@ -269,7 +269,7 @@ export default function Category() {
                   fuel: "90L",
                 },
               ].map((car, i) => (
-                <Card key={car.name} className="overflow-hidden">
+                <Card key={car.name} className="overflow-hidden hover:scale-[1.1]">
                   <CardContent className="p-6">
                     <div className="flex justify-between items-start">
                       <div>
@@ -298,7 +298,7 @@ export default function Category() {
                         src={`/images/${car.name
                           .toLowerCase()
                           .replace(/ /g, "-")}.png`}
-                        alt={car.name}
+                        alt={car.name} width={100} height={100}
                         className="w-[244px] h-[72px] object-contain"
                       />
                     </div>

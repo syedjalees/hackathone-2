@@ -27,7 +27,7 @@ export default function CarCard({
   isFavorite = false,
 }: CarCardProps) {
   return (
-    <Card className="w-[304px] p-6 relative">
+    <Card className="w-[304px] p-6 relative hover:scale-[1.1]">
       {/* Header */}
       <div className="flex justify-between items-start">
         <div className="space-y-1">
@@ -49,6 +49,7 @@ export default function CarCard({
           <Image
             src={image}
             alt={name}
+            width={100} height={100}
             className="h-auto w-[232px] object-contain"
           />
         </div>

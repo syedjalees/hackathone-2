@@ -31,9 +31,9 @@ export default function SearchSection() {
                     <SelectValue placeholder="Select city" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="ny">New York</SelectItem>
-                    <SelectItem value="ld">London</SelectItem>
-                    <SelectItem value="db">Dubai</SelectItem>
+                    <SelectItem value="ny">Karachi</SelectItem>
+                    <SelectItem value="ld">Hyderabad</SelectItem>
+                    <SelectItem value="db">Sukkur</SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -92,9 +92,9 @@ export default function SearchSection() {
                     <SelectValue placeholder="Select city" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="ny">New York</SelectItem>
-                    <SelectItem value="ld">London</SelectItem>
-                    <SelectItem value="db">Dubai</SelectItem>
+                    <SelectItem value="ny">Sukkur</SelectItem>
+                    <SelectItem value="ld">Hyderabad</SelectItem>
+                    <SelectItem value="db">Karachi</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

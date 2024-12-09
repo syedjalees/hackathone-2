@@ -136,7 +136,7 @@ export default function details() {
             </Link>
           </div>
           <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 xl:px-5 ">
-            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
+            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between hover:scale-[1.1]">
               <CardHeader>
                 <CardTitle className="w-full flex items-center justify-between">
                   Koenigsegg{" "}
@@ -165,7 +165,7 @@ export default function details() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
+            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between hover:scale-[1.1]">
               <CardHeader>
                 <CardTitle className="w-full flex items-center justify-between">
                   NissanGT - R{" "}
@@ -194,7 +194,7 @@ export default function details() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
+            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between hover:scale-[1.1]">
               <CardHeader>
                 <CardTitle className="w-full flex items-center justify-between">
                   Rolls-Royce{" "}
@@ -236,7 +236,7 @@ export default function details() {
             </Link>
           </div>
           <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 xl:px-5 ">
-            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
+            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between hover:scale-[1.1]">
               <CardHeader>
                 <CardTitle className="w-full flex items-center justify-between">
                   All New Rush{" "}
@@ -265,7 +265,7 @@ export default function details() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
+            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between hover:scale-[1.1]">
               <CardHeader>
                 <CardTitle className="w-full flex items-center justify-between">
                   CR - V{" "}
@@ -294,7 +294,7 @@ export default function details() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
+            <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between hover:scale-[1.1]">
               <CardHeader>
                 <CardTitle className="w-full flex items-center justify-between">
                   All New Terios{" "}

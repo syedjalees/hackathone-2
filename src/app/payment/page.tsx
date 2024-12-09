@@ -84,9 +84,9 @@ export default function Payment() {
                       <SelectValue placeholder="Select your city" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="ny">New York</SelectItem>
-                      <SelectItem value="la">Los Angeles</SelectItem>
-                      <SelectItem value="ch">Chicago</SelectItem>
+                      <SelectItem value="ny">Moro</SelectItem>
+                      <SelectItem value="la">Larkana</SelectItem>
+                      <SelectItem value="ch">Dadu</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -110,9 +110,9 @@ export default function Payment() {
                       <SelectValue placeholder="Select your time" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="9">09:00 AM</SelectItem>
-                      <SelectItem value="10">10:00 AM</SelectItem>
-                      <SelectItem value="11">11:00 AM</SelectItem>
+                      <SelectItem value="9">Morning</SelectItem>
+                      <SelectItem value="10">Evening</SelectItem>
+                      <SelectItem value="11">Night</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -132,9 +132,9 @@ export default function Payment() {
                       <SelectValue placeholder="Select your city" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="ny">New York</SelectItem>
-                      <SelectItem value="la">Los Angeles</SelectItem>
-                      <SelectItem value="ch">Chicago</SelectItem>
+                      <SelectItem value="ny">Nawabshah</SelectItem>
+                      <SelectItem value="la">Hyderabad</SelectItem>
+                      <SelectItem value="ch">Larkana</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -158,9 +158,9 @@ export default function Payment() {
                       <SelectValue placeholder="Select your time" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="9">09:00 AM</SelectItem>
-                      <SelectItem value="10">10:00 AM</SelectItem>
-                      <SelectItem value="11">11:00 AM</SelectItem>
+                      <SelectItem value="9">Morning</SelectItem>
+                      <SelectItem value="10">Evening</SelectItem>
+                      <SelectItem value="11">Night</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -221,14 +221,14 @@ export default function Payment() {
                 <RadioGroupItem value="paypal" id="paypal" />
                 <Label htmlFor="paypal" className="flex gap-10 lg:gap-[300px]">
                   PayPal
-                  <Image src="/Paypal.png" alt="" />
+                  <Image src="/Paypal.png" alt="" width={100} height={100} />
                 </Label>
               </div>
               <div className="flex items-center space-x-2 p-4 bg-muted rounded-lg">
                 <RadioGroupItem value="bitcoin" id="bitcoin" />
                 <Label htmlFor="bitcoin" className="flex gap-10 lg:gap-[300px]">
                   Bitcoin
-                  <Image src="/Bitcoin.png" alt="" />
+                  <Image src="/Bitcoin.png" alt="" width={100} height={100}/>
                 </Label>
               </div>
             </RadioGroup>

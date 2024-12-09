@@ -5,10 +5,13 @@
 body {
   width: 100%;
   max-width: 1440px;
-  height: 2320px;
+  /* height: 2320px; */
+  height: 100%;
   overflow-x: hidden;
   margin: auto;
   background-color: #F6F7F9;
+  z-index: 1;
+  position: relative;
 }
 
 

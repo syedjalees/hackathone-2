@@ -6,7 +6,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="mb-[124px] w-full px-4 sm:px-6 md:px-8 overflow-x-hidden">
+    <div className="mb-[124px] w-full px-4 sm:px-6 md:px-8 overflow-x-hidden ">
       <Hero />
       <SearchSection />
       <PopularCar />

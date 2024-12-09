@@ -8,7 +8,7 @@ function Hero() {
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row gap-10 mt-[32px] mb-[32px]">
         {/* First Card */}
-        <div className="relative w-full md:w-[640px] h-[360px] bg-[#54A6FF] rounded-lg overflow-hidden">
+        <div className="relative w-full md:w-[640px] h-[360px] bg-[#54A6FF] hover:scale-[1.1] rounded-lg overflow-hidden">
           {/* Decorative Circles */}
           <div className="absolute inset-0">
             {[50, 150, 275, 400, 525, 650, 775].map((size, i) => (
@@ -56,7 +56,7 @@ function Hero() {
         </div>
 
         {/* Second Card (Hidden on Mobile) */}
-        <div className="relative w-full md:w-[640px] h-[360px] bg-[#54A6FF] rounded-lg overflow-hidden md:block hidden">
+        <div className="relative w-full md:w-[640px] h-[360px] bg-[#54A6FF] rounded-lg hover:scale-[1.1] overflow-hidden md:block hidden">
           {/* Decorative Circles */}
           <div className="absolute inset-0">
             {[50, 150, 275, 400, 525, 650, 775].map((size, i) => (
