@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <nav className="w-full bg-white sticky top-0 z-50 border-b border-[rgba(195,212,233,0.4)] px-4 sm:px-6 md:px-8 py-4 sm:py-6">
+    <nav className="w-full bg-white md:sticky  lg:sticky top-0 z-50 border-b border-[rgba(195,212,233,0.4)] px-4 sm:px-6 md:px-8 py-4 sm:py-6">
       <div className="flex items-center justify-between flex-wrap md:flex-nowrap w-full">
         {/* Logo */}
         <h1 className="text-[28px] sm:text-[32px] font-bold tracking-[-0.03em] text-[#3563E9]">

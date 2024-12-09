@@ -72,7 +72,6 @@ function Hero() {
               />
             ))}
           </div>
-
           {/* Content */}
           <div className="relative z-10 p-6 flex flex-col gap-5">
             <div className="space-y-4">
