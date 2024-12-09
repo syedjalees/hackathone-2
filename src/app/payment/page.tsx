@@ -221,7 +221,7 @@ export default function Payment() {
                 <RadioGroupItem value="paypal" id="paypal" />
                 <Label htmlFor="paypal" className="flex gap-10 lg:gap-[300px]">
                   PayPal
-                  <Image src="/Paypal.png" alt="" width={100} height={100} />
+                  <Image src="/Paypal.png" alt="Paypal" width={100} height={100} />
                 </Label>
               </div>
               <div className="flex items-center space-x-2 p-4 bg-muted rounded-lg">
